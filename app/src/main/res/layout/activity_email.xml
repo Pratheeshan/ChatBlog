@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="32dp">
+
+    <EditText
+        android:id="@+id/mailContent"
+        android:hint="Enter a text"
+        android:background="@android:color/transparent"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:inputType="textCapSentences|textMultiLine" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/addImage"
+        android:src="@android:drawable/ic_menu_add"
+        android:background="@drawable/sendbuttonshape"
+        android:adjustViewBounds="false"
+        android:layout_marginRight="15dp" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/shareEmail"
+        android:src="@android:drawable/ic_menu_share"
+        android:background="@drawable/sendbuttonshape"
+        android:adjustViewBounds="false"
+        android:layout_marginRight="15dp" />
+
+</LinearLayout>
